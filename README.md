@@ -1,10 +1,9 @@
 # ConsultCAR
-Repositório do Projeto Integrador da Turma do 2º Semestre de Banco de Dados da FATEC
+## Repositório do Projeto Integrador da Turma do 2º Semestre de Banco de Dados da FATEC
 
-Equipe Tetris
+### Equipe Tetris
 
-Jefferson Tavares de Araújo - Scrum Master
-
-Davi das Neves Machado - Team Dev
-
-Gabriel Oliveira Sana - Team Dev
+* Jefferson Tavares de Araújo - Scrum Master
+* Davi das Neves Machado - Team Dev
+* Gabriel Oliveira Sana - Team Dev
+* Nágella Nasser - Team Dev
