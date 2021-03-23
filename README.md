@@ -6,3 +6,5 @@ Equipe Tetris
 Jefferson Tavares de Araújo - Scrum Master
 
 Davi das Neves Machado - Team Dev
+
+Gabriel Oliveira Sana - Team Dev
