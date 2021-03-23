@@ -4,3 +4,5 @@ Repositório do Projeto Integrador da Turma do 2º Semestre de Banco de Dados da
 Equipe Tetris
 
 Jefferson Tavares de Araújo - Scrum Master
+
+Davi das Neves Machado - Team Dev
