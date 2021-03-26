@@ -7,4 +7,5 @@
 * Davi das Neves Machado - Team Dev
 * Gabriel Oliveira Sana - Team Dev
 * Nágella Nasser - Team Dev
+* Renata Garcia Nonato - Team Dev
 * Valdiney José do Nascimento - Team Dev
