@@ -86,11 +86,20 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br> 
 </div>
 
+## Product Backlog
+<div class="users-stories" style= "text-align:justify">
+
+- **Product Backlog: **
+  - ![Example_UserStory](/resource/images/necessidades.jpeg "Backlog Necessidades do Cliente")
+<br>  
+</div>
+<br>
+
 ## Users Stories Cards
 <div class="users-stories" style= "text-align:justify">
 
-- **User Story 1: <nome_da_userStory>**
-  - ![Example_UserStory](/resource/images/userStory_example.png "Example User Story")
+- **User Story: **
+  - ![Example_UserStory](/resource/images/user_stories.jpeg "User Stories Cliente")
 <br>  
 </div>
 <br>
@@ -98,17 +107,15 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Wireframe
 <div class="wireframes" style= "text-align:justify">
 
-- **Wireframe 1: Login**
-  - ![Example_WireframeLogin](/resource/images/wireframe_exampleLogin.jpeg "Example Wireframe Login")
+- **Wireframe 1: Tela Inicial**
+  - ![Example_WireframeLogin](/resource/images/Tela_inicial.png "Tela Inicial Protótipo ConsultCAR")
 <br><br>
 
-- **Wireframe 2: Recuperar Senha**
-  - ![Example_WireframeEsqueceuSenha](/resource/images/wireframe_exampleEsqueceuSenha.jpeg "Example Wireframe Recuperar Senha")
+- **Wireframe 2: Buscar o Arquivo CSV**
+  - ![Example_WireframeEsqueceuSenha](/resource/images/eventos_click_Abrir arquivo-Ele_inclui_o_cvs.png "Tela de busca do Protótipo ConsultCAR")
 <br><br>
 
-- **Wireframe 3: Cadastrar**
-  - ![Example_WireframeCadastrar](/resource/images/wireframe_exampleCadastrar.jpeg "Example Wireframe Cadastrar")
-<br><br>
+
 
 </div>
 <br>
