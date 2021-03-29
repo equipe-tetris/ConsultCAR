@@ -37,12 +37,12 @@ ConsultCar é uma ferramenta que tem o intuito de facilitar a importação, arma
 
 ## Requisitos funcionais
 
-- Texto
+- Importação e leitura de dados com extensão.csv
 <br>
 
 ## Funcionalidades
 
-- Texto
+- Disponibilizar de forma organizada em tabela informações extraídas a partir da importação de arquivos de extensão .csv 
 <br>
 
 ## Público-alvo
