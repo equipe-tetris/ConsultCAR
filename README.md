@@ -112,7 +112,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>
 
 - **Wireframe 2: Buscar o Arquivo CSV**
-  - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.png "Tela de busca do Protótipo ConsultCAR")
+  - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.jpg "Tela de busca do Protótipo ConsultCAR")
 <br><br>
 
 
