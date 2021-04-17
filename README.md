@@ -37,12 +37,16 @@ ConsultCar é uma ferramenta que tem o intuito de facilitar a importação, arma
 
 ## Requisitos funcionais
 
-- Importação e leitura de dados com extensão.csv
+- Banco de Dados com extensão espacial
+- Importação e leitura de dados com extensão .shp
+- Armazenamento do shapefile (polígono) da propriedade
+- Leitura dos dados para classificações internas (Cód. IBGE, UF, etc)
+  
 <br>
 
 ## Funcionalidades
 
-- Disponibilizar de forma organizada em tabela informações extraídas a partir da importação de arquivos de extensão .csv 
+- Disponibilizar de forma organizada em tabela informações extraídas a partir da importação de arquivos adquiridos na plataforma do Sicar com extensão .shp 
 <br>
 
 ## Público-alvo
@@ -57,9 +61,9 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - Git
 - GitHub
-- Linguagem de Programação: C#
-- Banco de Dados: PostgreSQL
+- Banco de Dados: PostgreSQL ||pgAdmin ou DBeaver
 - Extensão espacial para o banco de dados: PostGIS
+- Software QGIS
 
 </div>
 <br>
@@ -75,9 +79,10 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - **SPRINT 1**
   - Texto
+  - Texto
 <br><br>
 
-- **SPRINT 2**
+<!--- **SPRINT 2**
   - Texto
 <br><br> 
 
@@ -85,7 +90,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - Texto
 <br><br> 
 </div>
-
+-->
 ## Product Backlog
 <div class="users-stories" style= "text-align:justify">
 
@@ -104,7 +109,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 </div>
 <br>
 
-## Wireframe
+<!--## Wireframe
 <div class="wireframes" style= "text-align:justify">
 
 - **Wireframe 1: Tela Inicial**
@@ -112,9 +117,9 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>
 
 - **Wireframe 2: Buscar o Arquivo CSV**
-  - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.png.jpg "Tela de busca do Protótipo ConsultCAR")
+  - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.jpg "Tela de busca do Protótipo ConsultCAR")
 <br><br>
-
+-->
 
 
 </div>
