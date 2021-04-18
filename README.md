@@ -105,10 +105,16 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <div class="users-stories" style= "text-align:justify">
 
 - **User Story:**
-  - ![Example_UserStory](/resource/images/user_stories.jpg "User Stories Cliente")
+  - ![Example_UserStory](/resource/images/user_stories.jpeg "User Stories Cliente")
 <br>  
 </div>
 <br>
+## Modelagem Entidade-Relacionamento - MER
+<div class="mer" style= "text-align:justify">
+
+- ![MER](/resource/images/MER.jpeg "MER ConsultCAR")
+<br><br>
+</div>
 
 <!--## Wireframe
 <div class="wireframes" style= "text-align:justify">
@@ -119,9 +125,9 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - **Wireframe 2: Buscar o Arquivo CSV**
   - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.jpg "Tela de busca do Protótipo ConsultCAR")
-<br><br>
+<br><br></div>
 -->
 
 
-</div>
+
 <br>
