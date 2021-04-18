@@ -61,7 +61,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - Git
 - GitHub
-- Banco de Dados: PostgreSQL ||pgAdmin ou DBeaver
+- Banco de Dados: PostgreSQL || pgAdmin ou DBeaver
 - Extensão espacial para o banco de dados: PostGIS
 - Software QGIS
 
@@ -78,8 +78,9 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>  
 
 - **SPRINT 1**
-  - Texto
-  - Texto
+  - Modelagem do Banco de Dados - MER
+  - Desenvolvimento do Banco de Dados
+  - Importação e visualização do arquivo Shapefile (.shp), no BD
 <br><br>
 
 <!--- **SPRINT 2**
@@ -95,7 +96,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <div class="users-stories" style= "text-align:justify">
 
 - **Product Backlog:**
-  - ![Example_UserStory](/resource/images/necessidades.jpeg "Backlog Necessidades do Cliente")
+  - ![Example_UserStory](/resource/images/backlog.jpeg "Backlog Necessidades do Cliente")
 <br>  
 </div>
 <br>
