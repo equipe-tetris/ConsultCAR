@@ -1,4 +1,4 @@
-<div style = "text-align:center">
+﻿<div style = "text-align:center">
 
 # Seja bem vindo ao  ![LogoProjeto](/resource/images/LogoConsultCAR_50px.png "LogoProjeto") ConsultCAR
 
@@ -94,7 +94,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Product Backlog
 <div class="users-stories" style= "text-align:justify">
 
-- **Product Backlog: **
+- **Product Backlog:**
   - ![Example_UserStory](/resource/images/necessidades.jpeg "Backlog Necessidades do Cliente")
 <br>  
 </div>
@@ -103,8 +103,8 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Users Stories Cards
 <div class="users-stories" style= "text-align:justify">
 
-- **User Story: **
-  - ![Example_UserStory](/resource/images/user_stories.jpeg "User Stories Cliente")
+- **User Story:**
+  - ![Example_UserStory](/resource/images/user_stories.jpg "User Stories Cliente")
 <br>  
 </div>
 <br>
