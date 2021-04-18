@@ -104,11 +104,11 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Users Stories Cards
 <div class="users-stories" style= "text-align:justify">
 
-- **User Story:**
-  - ![Example_UserStory](/resource/images/user_stories.jpeg "User Stories Cliente")
+- ![Example_UserStory](/resource/images/user_stories.jpeg "User Stories Cliente")
 <br>  
 </div>
 <br>
+
 ## Modelagem Entidade-Relacionamento - MER
 <div class="mer" style= "text-align:justify">
 
