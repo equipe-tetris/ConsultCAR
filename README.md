@@ -71,23 +71,23 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Entregas
 <div class="sprints" style= "text-align:justify">
 
-- **SPRINT 0**
+- **SPRINT 1**
   - Definição da solução e suas funcionalidades
   - Desenvolvimento das _Users Stories_ do projeto
   - Idealização e desenvolvimento de protótipo [wireframe] da tela de importação de arquivos _**.CSV**_
 <br><br>  
 
-- **SPRINT 1**
+- **SPRINT 2**
   - Modelagem do Banco de Dados - MER
   - Desenvolvimento do Banco de Dados
   - Importação e visualização do arquivo Shapefile (.shp), no BD
 <br><br>
 
-<!--- **SPRINT 2**
+<!--- **SPRINT 3**
   - Texto
 <br><br> 
 
-- **SPRINT 3**
+- **SPRINT 4**
   - Texto
 <br><br> 
 </div>
