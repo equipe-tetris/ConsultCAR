@@ -83,7 +83,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - Importação e visualização do arquivo Shapefile (.shp), no BD
 <br><br>
 
-<!--- **SPRINT 3**
+- **SPRINT 3**
   - Desenvolvimento do script de descompactação dos arquivos *.zip
   - Correção da modelagem do Banco de Dados - MER
   - Criação do Banco de Dados com extensão espacial
