@@ -84,11 +84,15 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>
 
 <!--- **SPRINT 3**
-  - Texto
+  - Desenvolvimento do script de descompactação dos arquivos *.zip
+  - Correção da modelagem do Banco de Dados - MER
+  - Criação do Banco de Dados com extensão espacial
+  - Extração e carga dos arquivos shapefiles no Banco de Dados
 <br><br> 
 
 - **SPRINT 4**
-  - Texto
+  - Visualização dos logs registrando as ações e erros do sistemas
+  - Ajustes de funcionalidades
 <br><br> 
 </div>
 -->
