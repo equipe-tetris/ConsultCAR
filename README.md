@@ -120,6 +120,15 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>
 </div>
 
+## Modelo Lógico
+<div class="Modelo Lógico" style= "text-align:justify">
+
+- ![Example_Modelo Lógico](resource/images/Modelo_Lógico_API.jpg "Modelo Lógico")
+<br>  
+</div>
+<br>
+
+
 <!--## Wireframe
 <div class="wireframes" style= "text-align:justify">
 
@@ -129,7 +138,8 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - **Wireframe 2: Buscar o Arquivo CSV**
   - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.jpg "Tela de busca do Protótipo ConsultCAR")
-<br><br></div>
+<br><br>
+</div>
 -->
 
 
