@@ -132,8 +132,12 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Wireframes
 <div class="wireframes" style= "text-align:justify">
 
-- **01: Tela Inicial**
+- **01: Tela Inicial** *- atual*
   - ![Tela_Inicial](./resource/images/telas/aplicacao/Wireframe_telaPrincipal.jpeg "Tela Inicial Protótipo ConsultCAR")
+<br><br>
+
+  - *Tela Inciail Prevista - Sujeita a modificações* 
+  - ![Tela_Inicial](./resource/images/frame_consultcar.png "Tela do Software ConsultCar")
 <br><br>
 
 - **02: Diretorio de entrada com arquivos ainda compactados**
@@ -176,7 +180,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Tela do Software
 <div class="Modelo Conceitual" style= "text-align:justify">
  
-<!-- ![Tela do Software](/resource/images/frame_consutcar.png "Tela do Software ConsultCar")
+<!-- ![Tela do Software](/resource/images/frame_consultcar.png "Tela do Software ConsultCar")
 
 <br>  
 </div>
