@@ -136,7 +136,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - ![Tela_Inicial](./resource/images/telas/aplicacao/Wireframe_telaPrincipal.jpeg "Tela Inicial Protótipo ConsultCAR")
 <br><br>
 
-  - *Tela Inciail Prevista - Sujeita a modificações* 
+  - *Tela Inicial Prevista - Sujeita a modificações* 
   - ![Tela_Inicial](./resource/images/frame_consultcar.png "Tela do Software ConsultCar")
 <br><br>
 
