@@ -61,9 +61,8 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - Git
 - GitHub
-- Banco de Dados: PostgreSQL || pgAdmin ou DBeaver
+- Banco de Dados: PostgreSQL || pgAdmin4 ou DBeaver
 - Extensão espacial para o banco de dados: PostGIS
-- Software QGIS
 
 </div>
 <br>
@@ -78,6 +77,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>  
 
 - **SPRINT 2**
+  - Correção no plano de desenvolvimento da aplicação
   - Modelagem do Banco de Dados - MER
   - Desenvolvimento do Banco de Dados
   - Importação e visualização do arquivo Shapefile (.shp), no BD
@@ -85,30 +85,32 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - **SPRINT 3**
   - Desenvolvimento do script de descompactação dos arquivos *.zip
-  - Correção da modelagem do Banco de Dados - MER
+  - Correção da modelagem do Banco de Dados - MER (conceitual e lógico)
+  - Geração e visualização de logs de descompactação
   - Criação do Banco de Dados com extensão espacial
-  - Extração e carga dos arquivos shapefiles no Banco de Dados
+  - Estruturação do banco de dados para futura população de dados shapefile
+  - Conexão entre aplicação e o Banco de Dados 
 <br><br> 
 
 - **SPRINT 4**
-  - Visualização dos logs registrando as ações e erros do sistemas
+  - Carga dos arquivos shapefiles no Banco de Dados
   - Ajustes de funcionalidades
 <br><br> 
 </div>
--->
+
 ## Product Backlog
+
 <div class="users-stories" style= "text-align:justify">
 
-- **Product Backlog:**
-  - ![Example_UserStory](/resource/images/backlog.jpeg "Backlog Necessidades do Cliente")
+- ![Product Backlog](./resource/images/backlog.jpeg "Backlog - Necessidades do Cliente")
 <br>  
 </div>
 <br>
 
-## Users Stories Cards
+## Users Stories
 <div class="users-stories" style= "text-align:justify">
 
-- ![Example_UserStory](/resource/images/user_stories.jpeg "User Stories Cliente")
+- ![UsersStories](./resource/images/user_stories.jpeg "Users Stories")
 <br>  
 </div>
 <br>
@@ -116,50 +118,69 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## Modelagem Entidade-Relacionamento - MER
 <div class="mer" style= "text-align:justify">
 
-- ![MER](/resource/images/MER.jpeg "MER ConsultCAR")
+- **Modelo Conceitual**
+  
+   ![MER_ModeloConceitual](./resource/images/MER.jpeg "MER_Conceitual_ConsultCAR")
+<br><br>
+
+- **Modelo Lógico**
+  
+   ![MER_ModeloConceitual](./resource/images/Modelo_Lógico_API.jpg "MER_Lógico_ConsultCAR")
 <br><br>
 </div>
 
-## Modelo Lógico
-<div class="Modelo Lógico" style= "text-align:justify">
-
-- ![Example_Modelo Lógico](resource/images/Modelo_Lógico_API.jpg "Modelo Lógico")
-<br>  
-</div>
-<br>
-
-## Modelo Conceitual
-<div class="Modelo Conceitual" style= "text-align:justify">
-
-- ![Example_Modelo Conceitual](resource/images/Modelo_Conceitual_API.jpg "Modelo Conceitual")
-<br>  
-</div>
-<br>
-
-
-
-<!--## Wireframe
+## Wireframes
 <div class="wireframes" style= "text-align:justify">
 
-- **Wireframe 1: Tela Inicial**
-  - ![Example_WireframeLogin](/resource/images/Tela_inicial.png "Tela Inicial Protótipo ConsultCAR")
+- **01: Tela Inicial**
+  - ![Tela_Inicial](./resource/images/telas/aplicacao/Wireframe_telaPrincipal.jpeg "Tela Inicial Protótipo ConsultCAR")
 <br><br>
 
-- **Wireframe 2: Buscar o Arquivo CSV**
-  - ![Example_WireframeEsqueceuSenha](/resource/images/evento_click.jpg "Tela de busca do Protótipo ConsultCAR")
+- **02: Diretorio de entrada com arquivos ainda compactados**
+  - ![DirCompact](./resource/images/telas/aplicacao/Wireframe_telaDirEntrada.arqComp.jpeg "Diretório com arquivos ainda compactados ConsultCAR")
 <br><br>
+
+- **03: Conexão com o Banco de Dados**
+  - ![ConexaoBD](./resource/images/telas/aplicacao/Wireframe_telaConexaoBemSucedida.jpeg "Tela de confirmação de conexão com banco de dados ConsultCAR")
+<br><br>
+
+- **04: Log informando as atividades do Sistema**
+  - ![Tela_LogSistema](./resource/images/telas/aplicacao/Wireframe_telaLog.jpeg "Tela de logs das atividades do Sistema ConsultCAR")
+<br><br>
+
+- **05: Diretorio de saída com arquivos descompactados**
+  - ![DirCompact](./resource/images/telas/aplicacao/Wireframe_telaDirEntrada.arqComp.jpeg "Diretório com arquivos descompactados ConsultCAR")
+<br><br>
+
+- **06: Arquivos gerados**
+  - ![DiretoriosLogs](./resource/images/telas/aplicacao/Wireframe_telaArqLogGerados.jpeg "Diretório de arquivos gerados ConsultCAR")
+<br><br>
+
+### **Banco de Dados**
+- **07: Banco de Dados criado com extensão espacial**
+  - ![BancoDeDados](./resource/images/telas/bancoDeDados/Wireframe_BD.jpeg "Banco de Dados criado ConsultCAR")
+<br><br>
+
+- **09: Estrutura das colunas no Banco de Dados** 
+  - ![BancoDeDados](./resource/images/telas/bancoDeDados/Wireframe_ColunasBD.jpeg "Banco de Dados estrutura colunas ConsultCAR")
+<br><br>
+
+- **09: Script de importação dos dados para popular o banco de dados**
+  - ![BancoDeDados](./resource/images/telas/bancoDeDados/Wireframe_CodigoBD.jpeg "Banco de Dados parte do script ConsultCAR")
+<br><br>
+
 </div>
--->
-
-
 
 <br>
+<!--
 ## Tela do Software
 <div class="Modelo Conceitual" style= "text-align:justify">
-- ![Tela do Software](resource/images/frame_consutcar.png "Tela do Software ConsultCar")
+ 
+<!-- ![Tela do Software](/resource/images/frame_consutcar.png "Tela do Software ConsultCar")
+
 <br>  
 </div>
 <br>
-
+-->
 
 
