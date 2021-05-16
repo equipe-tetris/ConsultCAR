@@ -156,7 +156,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br>
 ## Tela do Software
 <div class="Modelo Conceitual" style= "text-align:justify">
-- ![Tela do Software](resource/images/frame_consutcar.png "Modelo Lógico")
+- ![Tela do Software](resource/images/frame_consutcar.png "Tela do Software ConsultCar")
 <br>  
 </div>
 <br>
