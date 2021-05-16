@@ -4,56 +4,73 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.PathMatcher;
+import java.nio.file.Paths;
 import java.util.List;
+import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class DescompactadorZip {
-	
-	 List fileList;
-	    private static final String ARQUIVO_ZIP_ENTRADA = "C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\ArquivoCompactado\\AREA_IMOVEL.zip";
-	    private static final String DIRETORIO_SAIDA = "C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\ArquivoDescompactado";
-	    public static void main( String[] args )
-	    {
-	    	DescompactadorZip unZip = new DescompactadorZip();
-	    	unZip.Descompactador(ARQUIVO_ZIP_ENTRADA, DIRETORIO_SAIDA);
+		
+		logSystem log = new logSystem();
+    
+	    public static void main( String[] args ) {
+	    	DescompactadorZip unzipper = new DescompactadorZip();    
+	    	
+	    }
+	   
+	    public void unzipZipsInDirTo(Path searchDir, Path unzipTo ){
+
+	        final PathMatcher matcher = searchDir.getFileSystem().getPathMatcher("glob:**/*.zip");
+	        try (final Stream<Path> stream = Files.list(searchDir)) {
+	            stream.filter(matcher::matches)
+	                    .forEach(zipFile -> unzip(zipFile, unzipTo)); 
+	        }catch (IOException e){
+	        	e.printStackTrace();
+	        }
 	    }
 	    
-	    public void Descompactador(String arquivoZip, String dirSaida){
-	     byte[] buffer = new byte[4096];
-	     try{
-	    	
-	    	File folder = new File(DIRETORIO_SAIDA);
-	    	if(!folder.exists()){
-	    		folder.mkdirs();
-	    	}
-	    	
-	    	ZipInputStream zipInput =
-	    		new ZipInputStream(new FileInputStream(arquivoZip));
-	    	
-	    	ZipEntry zipEntry =  zipInput.getNextEntry();
-	    	while(zipEntry!=null){
-	    	   String nomeArquivo = zipEntry.getName();
-	           File newFile = new File(dirSaida + File.separator + nomeArquivo);
-	           System.out.println("Arquivo descompactado: " + newFile.getAbsoluteFile());
-	          
-	            new File(newFile.getParent()).mkdirs();
-	            FileOutputStream fos = new FileOutputStream(newFile);
-	            int len;
-	            while ((len =  zipInput.read(buffer)) > 0) {
-	       		fos.write(buffer, 0, len);
+	    public void unzip(Path zipFile, Path outputPath){
+	        try (ZipInputStream zis = new ZipInputStream(Files.newInputStream(zipFile))) {
+
+	            ZipEntry entry = zis.getNextEntry();
+
+	            while (entry != null) {
+	            	log.logWriter("Descompactando o arquivo: " + entry.getName());
+	                Path newFilePath = outputPath.resolve(entry.getName());
+	                
+	                if (entry.isDirectory()) {
+	                    Files.createDirectories(newFilePath);
+	                } else {
+	                    if(!Files.exists(newFilePath.getParent())) {
+	                        Files.createDirectories(newFilePath.getParent());
+	                    }
+	                    try (OutputStream bos = Files.newOutputStream(outputPath.resolve(newFilePath))) {
+	                        byte[] buffer = new byte[Math.toIntExact(entry.getSize())];
+	                        
+	                        int location;
+
+	                        while ((location = zis.read(buffer)) != -1) {
+	                            bos.write(buffer, 0, location);
+	                            
+	                        }
+	                    }
+	                }
+	                
+	                zis.closeEntry();
+	                entry = zis.getNextEntry();
+	               
 	            }
-	            fos.close();
-	            zipEntry =  zipInput.getNextEntry();
-	    	}
-	    	 zipInput.closeEntry();
-	    	 zipInput.close();
-	    	
-	    	System.out.println("Finalizado");
-	    }catch(IOException ex){
-	       ex.printStackTrace();
+	           
+	            
+	        }catch(IOException e){
+	            throw new RuntimeException(e);
+	     
+	        }
+	        
 	    }
-	   }
-	}
-
-
+}
