@@ -161,7 +161,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - ![BancoDeDados](./resource/images/telas/bancoDeDados/Wireframe_BD.jpeg "Banco de Dados criado ConsultCAR")
 <br><br>
 
-- **09: Estrutura das colunas no Banco de Dados** 
+- **08: Estrutura das colunas no Banco de Dados** 
   - ![BancoDeDados](./resource/images/telas/bancoDeDados/Wireframe_ColunasBD.jpeg "Banco de Dados estrutura colunas ConsultCAR")
 <br><br>
 
