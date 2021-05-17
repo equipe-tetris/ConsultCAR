@@ -120,12 +120,12 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - **Modelo Conceitual**
   
-   ![MER_ModeloConceitual](./resource/images/MER.jpeg "MER_Conceitual_ConsultCAR")
+   ![MER_ModeloConceitual](./resource/images/Modelo_Conceitual_API.jpg "MER_Conceitual_ConsultCAR")
 <br><br>
 
 - **Modelo Lógico**
   
-   ![MER_ModeloConceitual](./resource/images/Modelo_Lógico_API.jpg "MER_Lógico_ConsultCAR")
+   ![MER_ModeloLogico](./resource/images/Modelo_Lógico_API.jpg "MER_Lógico_ConsultCAR")
 <br><br>
 </div>
 
