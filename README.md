@@ -153,7 +153,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>
 
 - **05: Diretorio de saída com arquivos descompactados**
-  - ![DirCompact](./resource/images/telas/aplicacao/Wireframe_telaDirEntrada.arqComp.jpeg "Diretório com arquivos descompactados ConsultCAR")
+  - ![DirCompact](./resource/images/telas/aplicacao/Wireframe_telaDirSaida.arqDescomp.jpeg "Diretório com arquivos descompactados ConsultCAR")
 <br><br>
 
 - **06: Arquivos gerados**
