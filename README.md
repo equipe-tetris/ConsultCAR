@@ -1,6 +1,6 @@
 ﻿<div style = "text-align:center">
 
-# Seja bem vindo ao  ![LogoProjeto](/resource/images/LogoConsultCAR_50px.png "LogoProjeto") ConsultCAR
+# Seja bem vindo ao  ConsultCAR ![LogoProjeto](/resource/images/LogoConsultCAR_50px.png "LogoProjeto")
 
 </div>
 <div style="text-align:center">
@@ -10,7 +10,7 @@
 </div>
 <br>
 
-# O Time :woman: :man:
+# ![grupo-de-usuarios](https://user-images.githubusercontent.com/81206214/119750468-c757cf00-be6f-11eb-858e-714c3f2a481b.png)   O Time 
 <div class="time" style= "text-align:justify">
 A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco de Dados pela FATEC de São José dos Campos:
 
@@ -27,15 +27,14 @@ A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco 
 </div>
 <br>
 
-# ![LogoProjeto](/resource/images/LogoConsultCAR_50px.png "LogoProjeto") ConsultCar
+#  ConsultCar ![LogoProjeto](/resource/images/LogoConsultCAR_50px.png "LogoProjeto")
 
-## Objetivo  ![Flecha](https://user-images.githubusercontent.com/81206214/119738780-9e2b4480-be57-11eb-91ab-5d68dd36b311.jpg)
-<div class="motivacao" style= "text-align:justify" >
+## :dart: Objetivo  
 ConsultCar é uma ferramenta que tem o intuito de facilitar a importação, armazenamento e visualização de dados do Sistema Nacional de Cadastro Ambiental Rural.
 </div>
 <br>
 
-## Requisitos funcionais :pencil:
+## :pencil: Requisitos funcionais 
 
 - Banco de Dados com extensão espacial
 - Importação e leitura de dados com extensão .shp
@@ -44,19 +43,19 @@ ConsultCar é uma ferramenta que tem o intuito de facilitar a importação, arma
   
 <br>
 
-## Funcionalidades :heavy_check_mark:
+## :heavy_check_mark: Funcionalidades 
 
 - Disponibilizar de forma organizada em tabela informações extraídas a partir da importação de arquivos adquiridos na plataforma do Sicar com extensão .shp 
 <br>
 
-## Público-alvo :dart:
+## :dart: Público-alvo 
 
 <div class="publico-alvo" style= "text-align:justify">
 Profissionais que tenham a necessidade de acesso de forma organizada aos dados do Cadastro  Ambiental Rural.
 </div>
 <br>
 
-## Tecnologias utilizadas :computer:
+## :computer: Tecnologias utilizadas 
 <div class="tecnologias" style= "text-align:justify">
 
 - Git
@@ -67,7 +66,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 </div>
 <br>
 
-## Entregas :email:
+## :email: Entregas 
 <div class="sprints" style= "text-align:justify">
 
 - **SPRINT 1** :heavy_check_mark:
@@ -92,14 +91,13 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - Conexão entre aplicação e o Banco de Dados 
 <br><br> 
 
-- **SPRINT 4** :heavy_check_mark:
+- **SPRINT 4** :hourglass:
   - Carga dos arquivos shapefiles no Banco de Dados
   - Ajustes de funcionalidades
 <br><br> 
 </div>
 
-## Product Backlog :page_with_curl:
-
+## :page_with_curl: Product Backlog  
 <div class="users-stories" style= "text-align:justify">
 
 - ![Product Backlog](./resource/images/backlog.jpeg "Backlog - Necessidades do Cliente")
@@ -107,7 +105,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 </div>
 <br>
 
-## Users Stories :chart_with_upwards_trend:
+## :chart_with_upwards_trend: Users Stories 
 <div class="users-stories" style= "text-align:justify">
 
 - ![UsersStories](./resource/images/user_stories.jpeg "Users Stories")
@@ -115,7 +113,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 </div>
 <br>
 
-## Modelagem Entidade-Relacionamento - MER :pencil2:
+## :pencil2: Modelagem Entidade-Relacionamento - MER 
 <div class="mer" style= "text-align:justify">
 
 - **Modelo Conceitual**
@@ -129,7 +127,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 <br><br>
 </div>
 
-## Wireframes :mortar_board:
+## :mortar_board: Wireframes 
 <div class="wireframes" style= "text-align:justify">
 
 - **01: Tela Inicial** *- atual*
@@ -160,7 +158,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - ![DiretoriosLogs](./resource/images/telas/aplicacao/Wireframe_telaArqLogGerados.jpeg "Diretório de arquivos gerados ConsultCAR")
 <br><br>
 
-### **Banco de Dados** :newspaper:
+### :newspaper: **Banco de Dados** 
 - **07: Banco de Dados criado com extensão espacial**
   - ![BancoDeDados](./resource/images/telas/bancoDeDados/Wireframe_BD.jpeg "Banco de Dados criado ConsultCAR")
 <br><br>
