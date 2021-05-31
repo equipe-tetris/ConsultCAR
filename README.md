@@ -108,7 +108,8 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## :chart_with_upwards_trend: Users Stories 
 <div class="users-stories" style= "text-align:justify">
 
-- ![UsersStories](./resource/images/user_stories.jpeg "Users Stories")
+- ![user_stories](https://user-images.githubusercontent.com/81206214/120247320-766a2100-c249-11eb-8946-7060f9ae8fa8.jpg)
+
 <br>  
 </div>
 <br>
