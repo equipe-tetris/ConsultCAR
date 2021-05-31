@@ -73,13 +73,13 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 - **SPRINT 1** :heavy_check_mark:
   - Definição da solução e suas funcionalidades
   - Desenvolvimento das _Users Stories_ do projeto
-  - Idealização e desenvolvimento de protótipo [wireframe] da tela de importação de arquivos _**.CSV**_
+  - Idealização e desenvolvimento de protótipo [wireframe] da tela de importação de arquivos _**.SHP**_
 <br><br>  
 
 - **SPRINT 2** :heavy_check_mark:
   - Correção no plano de desenvolvimento da aplicação
   - Modelagem do Banco de Dados - MER
-  - Desenvolvimento do Banco de Dados
+  - Desenvolvimento do Banco de Dados com extensão espacial
   - Importação e visualização do arquivo Shapefile (.shp), no BD
 <br><br>
 
