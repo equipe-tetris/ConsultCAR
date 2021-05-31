@@ -21,6 +21,7 @@ A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco 
 - ***Team Dev :***
   - [Davi das Neves Machado](https://github.com/machadondavi)
   - [Gabriel Oliveira Sana](https://github.com/gabsana) 
+  - [Marcos Francisco da Silva](https://github.com/MARCOS575)
   - [Nágella Nasser](https://github.com/nagellanasser) 
   - [Renata Garcia Nonato](https://github.com/RenataGarciaNonato)
   - [Valdiney José do Nascimento](https://github.com/Valdineynascimento)
