@@ -15,16 +15,16 @@
 A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco de Dados pela FATEC de São José dos Campos:
 
 - ***Product Owner***
-  - [Alexia Karine Silva dos Santos](https://github.com/alexiakarine)
+  - [Alexia Karine Silva dos Santos](https://github.com/alexiakarine) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>]()
 - ***Scrum Master***
-  - [Jefferson Tavares de Araújo](https://github.com/jefferson-tavares-araujo)
+  - [Jefferson Tavares de Araújo](https://github.com/jefferson-tavares-araujo) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/jeffersontavaresaraujo/)
 - ***Team Dev :***
-  - [Davi das Neves Machado](https://github.com/machadondavi)
-  - [Gabriel Oliveira Sana](https://github.com/gabsana) 
-  - [Marcos Francisco da Silva](https://github.com/MARCOS575)
-  - [Nágella Nasser](https://github.com/nagellanasser) 
-  - [Renata Garcia Nonato](https://github.com/RenataGarciaNonato)
-  - [Valdiney José do Nascimento](https://github.com/Valdineynascimento)
+  - [Davi das Neves Machado](https://github.com/machadondavi) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>]()
+  - [Gabriel Oliveira Sana](https://github.com/gabsana) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/gabriel-sana-ba91a4147/)
+  - [Marcos Francisco da Silva](https://github.com/MARCOS575) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/marcos-francisco-411800201)
+  - [Nágella Nasser](https://github.com/nagellanasser) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/nagellanasser/)
+  - [Renata Garcia Nonato](https://github.com/RenataGarciaNonato) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/mwlite/in/renata-garcia-2a84821b7)
+  - [Valdiney José do Nascimento](https://github.com/Valdineynascimento) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>]()
 </div>
 <br>
 
