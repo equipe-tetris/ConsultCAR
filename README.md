@@ -10,7 +10,7 @@
 </div>
 <br>
 
-# ![grupo-de-usuarios](https://user-images.githubusercontent.com/81206214/119750468-c757cf00-be6f-11eb-858e-714c3f2a481b.png)   O Time 
+# ![trabalho-em-equipe](https://user-images.githubusercontent.com/81206214/120873313-f65cf780-c577-11eb-8ba2-15d1925c0e4b.png)   O Time 
 <div class="time" style= "text-align:justify">
 A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco de Dados pela FATEC de São José dos Campos:
 
@@ -24,7 +24,7 @@ A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco 
   - [Marcos Francisco da Silva](https://github.com/MARCOS575) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/marcos-francisco-411800201)
   - [Nágella Nasser](https://github.com/nagellanasser) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/nagellanasser/)
   - [Renata Garcia Nonato](https://github.com/RenataGarciaNonato) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/mwlite/in/renata-garcia-2a84821b7)
-  - [Valdiney José do Nascimento](https://github.com/Valdineynascimento) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>]()
+  - [Valdiney José do Nascimento](https://github.com/Valdineynascimento) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/valdiney-jos%C3%A9-do-nascimento-68a136214/)
 </div>
 <br>
 
