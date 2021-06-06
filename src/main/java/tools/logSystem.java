@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class logSystem {
+public class LogSystem {
 	
 	public void logWriter(String text) throws IOException {
 		File file = new File(("C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\log.txt"));

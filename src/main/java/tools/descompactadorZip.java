@@ -14,9 +14,9 @@ import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-public class descompactadorZip {
+public class DescompactadorZip {
 		
-		logSystem log = new logSystem();
+		LogSystem log = new LogSystem();
     
 	    public static void main( String[] args ) {  
 	    	

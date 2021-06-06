@@ -10,14 +10,16 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.SQLException;
 
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
-import db_connection.conexaoDB;
-import shape.shapeService;
-import tools.descompactadorZip;
-import tools.logSystem;
+import db_connection.ConnectionFactory;
+import shape.ShapeService;
+import tools.ConsoleService;
+import tools.DescompactadorZip;
+import tools.LogSystem;
 
 import javax.swing.JLabel;
 import javax.swing.JButton;
@@ -27,7 +29,7 @@ import javax.swing.JScrollPane;
 import java.awt.event.InputMethodListener;
 import java.awt.event.InputMethodEvent;
 
-public class telaConsultCar {
+public class TelaConsultCar {
 
 	private JFrame frame;
 	private JTextField textInput;
@@ -41,7 +43,7 @@ public class telaConsultCar {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					telaConsultCar window = new telaConsultCar();
+					TelaConsultCar window = new TelaConsultCar();
 					window.frame.setVisible(true);
 					
 				} catch (Exception e) {
@@ -54,7 +56,7 @@ public class telaConsultCar {
 	/**
 	 * Create the application.
 	 */
-	public telaConsultCar() {
+	public TelaConsultCar() {
 		initialize();
 	}
 
@@ -63,9 +65,11 @@ public class telaConsultCar {
 	 */
 	private void initialize() {
 		
-		descompactadorZip unzipper = new descompactadorZip();
-		logSystem log = new logSystem();
-		shapeService shape = new shapeService();
+		DescompactadorZip unzipper = new DescompactadorZip();
+		LogSystem log = new LogSystem();
+		ShapeService shape = new ShapeService();
+		ConsoleService console = new ConsoleService();
+		
 		
 		
 		frame = new JFrame();
@@ -73,12 +77,12 @@ public class telaConsultCar {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		textInput = new JTextField("C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\ArquivoCompactado");
+		textInput = new JTextField("C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\Zip");
 		textInput.setBounds(142, 22, 487, 28);
 		frame.getContentPane().add(textInput);
 		textInput.setColumns(10);
 		
-		textOutput = new JTextField("C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\ArquivoDescompactado");
+		textOutput = new JTextField("C:\\Users\\Davi Machado\\Desktop\\ConsultCar\\Unzip");
 		textOutput.setColumns(10);
 		textOutput.setBounds(142, 71, 487, 28);
 		frame.getContentPane().add(textOutput);
@@ -137,20 +141,23 @@ public class telaConsultCar {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					//conexaoDB conexao = new conexaoDB();
-					//log.logWriter("Conexão com Banco de Dados realizada com sucesso!!!");
-					
-					//shape.shapeItem();
 					shape.dbfItem();
+				} catch (ClassNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
+				//log.logWriter("Conexão com Banco de Dados realizada com sucesso!!!");
 			}
 			
 		});
 		
-		
+		console.carregarConsole(consoleText);
 		
 	}
 }
