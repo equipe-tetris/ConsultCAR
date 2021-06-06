@@ -15,11 +15,11 @@
 A equipe Tetris é composta pelos seguintes estudantes do 2º semestre de Banco de Dados pela FATEC de São José dos Campos:
 
 - ***Product Owner***
-  - [Alexia Karine Silva dos Santos](https://github.com/alexiakarine) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>]()
+  - [Alexia Karine Silva dos Santos](https://github.com/alexiakarine) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/alexia-karine-silva-5b0a79116/)
 - ***Scrum Master***
   - [Jefferson Tavares de Araújo](https://github.com/jefferson-tavares-araujo) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/jeffersontavaresaraujo/)
 - ***Team Dev :***
-  - [Davi das Neves Machado](https://github.com/machadondavi) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>]()
+  - [Davi das Neves Machado](https://github.com/machadondavi) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/davinevesmachado/)
   - [Gabriel Oliveira Sana](https://github.com/gabsana) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/gabriel-sana-ba91a4147/)
   - [Marcos Francisco da Silva](https://github.com/MARCOS575) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/marcos-francisco-411800201)
   - [Nágella Nasser](https://github.com/nagellanasser) [<center><img src="https://github.com/equipe-tetris/ConsultCAR/blob/master/resource/images/linkedin.png" /></center>](https://www.linkedin.com/in/nagellanasser/)
