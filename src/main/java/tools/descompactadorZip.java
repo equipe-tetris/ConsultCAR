@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.PathMatcher;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.List;
 import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
@@ -37,10 +38,14 @@ public class DescompactadorZip {
 	        try (ZipInputStream zis = new ZipInputStream(Files.newInputStream(zipFile))) {
 
 	            ZipEntry entry = zis.getNextEntry();
-
+	            
+	            int number = (int) (Math.random() * 10000) + 1;
+	            
+	            String nameFileSeq = Double.toString(number);
+	            
 	            while (entry != null) {
 	            	log.logWriter("Descompactando o arquivo: " + entry.getName());
-	                Path newFilePath = outputPath.resolve(entry.getName());
+	                Path newFilePath = outputPath.resolve(entry.getName().replace("AREA_IMOVEL", nameFileSeq));
 	                
 	                if (entry.isDirectory()) {
 	                    Files.createDirectories(newFilePath);
@@ -68,7 +73,6 @@ public class DescompactadorZip {
 	            
 	        }catch(IOException e){
 	            throw new RuntimeException(e);
-	     
 	        }
 	        
 	    }

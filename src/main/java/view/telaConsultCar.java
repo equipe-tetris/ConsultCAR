@@ -3,31 +3,21 @@ package view;
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.SQLException;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import db_connection.ConnectionFactory;
 import shape.ShapeService;
 import tools.ConsoleService;
 import tools.DescompactadorZip;
+import tools.FilterFile;
 import tools.LogSystem;
-
-import javax.swing.JLabel;
-import javax.swing.JButton;
-import javax.swing.JTextArea;
-import java.awt.Color;
-import javax.swing.JScrollPane;
-import java.awt.event.InputMethodListener;
-import java.awt.event.InputMethodEvent;
 
 public class TelaConsultCar {
 
@@ -67,7 +57,7 @@ public class TelaConsultCar {
 		
 		DescompactadorZip unzipper = new DescompactadorZip();
 		LogSystem log = new LogSystem();
-		ShapeService shape = new ShapeService();
+		FilterFile filter = new FilterFile();
 		ConsoleService console = new ConsoleService();
 		
 		
@@ -112,6 +102,8 @@ public class TelaConsultCar {
 		consoleText.setBounds(21, 215, 616, 288);
 		frame.getContentPane().add(consoleText);
 		
+		console.carregarConsole(consoleText);
+		
 		
 		btnProcessar.addActionListener(new ActionListener() {
 			
@@ -130,7 +122,7 @@ public class TelaConsultCar {
 					e1.printStackTrace();
 				}
 				
-					
+				console.carregarConsole(consoleText);
 			}
 			
 		});
@@ -139,25 +131,15 @@ public class TelaConsultCar {
 		btnConexao.addActionListener(new ActionListener() {
 
 			@Override
-			public void actionPerformed(ActionEvent e) {
-				try {
-					shape.dbfItem();
-				} catch (ClassNotFoundException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (SQLException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+			public void actionPerformed(ActionEvent e)  {
+				filter.filtrandoArquivosShp();
+				console.carregarConsole(consoleText);
 				//log.logWriter("Conexão com Banco de Dados realizada com sucesso!!!");
 			}
 			
 		});
 		
-		console.carregarConsole(consoleText);
 		
+		console.carregarConsole(consoleText);
 	}
 }

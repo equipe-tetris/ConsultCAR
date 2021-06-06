@@ -4,10 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import javax.swing.JOptionPane;
-
-import org.postgresql.util.PGobject;
-
 public class ConnectionFactory {
 	
 	private static final String USERNAME = "postgres";
