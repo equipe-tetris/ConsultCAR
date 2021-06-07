@@ -104,7 +104,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 ## :page_with_curl: Product Backlog  
 <div class="users-stories" style= "text-align:justify">
 
-- ![Product Backlog](./resource/images/backlog.jpeg "Backlog - Necessidades do Cliente")
+- ![Product Backlog](./resource/images/backlog_novo.jpeg "Backlog - Necessidades do Cliente")
 <br>  
 </div>
 <br>
