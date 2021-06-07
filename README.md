@@ -61,6 +61,9 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
 
 - Git
 - GitHub
+- Apache Maven
+- IDE Eclipse || JAVA
+- Biblioteca GeoTools
 - Banco de Dados: PostgreSQL || pgAdmin4 ou DBeaver
 - Extensão espacial para o banco de dados: PostGIS
 
@@ -92,7 +95,7 @@ Profissionais que tenham a necessidade de acesso de forma organizada aos dados d
   - Conexão entre aplicação e o Banco de Dados 
 <br><br> 
 
-- **SPRINT 4** :hourglass:
+- **SPRINT 4** :heavy_check_mark:
   - Carga dos arquivos shapefiles no Banco de Dados
   - Ajustes de funcionalidades
 <br><br> 
